@@ -14,11 +14,11 @@ tim buening pdh@timbuening.de
 }
 
 .navbar-default .navbar-nav li a {
-    color: rgb(0,0,0);
+    color: black;
 }
 
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {
-    color: var(--pdh-rot)
+    color: var(--pdh-rot);
 }
 
 .btn-primary {
@@ -27,7 +27,7 @@ tim buening pdh@timbuening.de
 }
 
 .text-info {
-    color: var(--pdh-rot)
+    color: var(--pdh-rot),
 }
 
 .progress-bar {
