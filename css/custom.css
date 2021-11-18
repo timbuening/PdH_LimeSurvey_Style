@@ -1,0 +1,35 @@
+/******************
+DieHumanisten Umfragen CSS 
+version 0.1 2021-11-18 18:26 
+tim buening
+*****************/
+
+:root {
+    --pdh-rot: #d90368;
+    --pdh-blau: #01baef;
+  }
+
+.navbar {
+    background-color: rgb(255,255,255);
+}
+
+.navbar-default .navbar-nav li a {
+    color: rgb(0,0,0);
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {
+    color: var(--pdh-rot)
+}
+
+.btn-primary {
+    background-color: var(--pdh-blau);
+    border-color: var(--pdh-blau);
+}
+
+.text-info {
+    color: var(--pdh-rot)
+}
+
+.progress-bar {
+    background-image: linear-gradient(to right, var(--pdh-blau), var(--pdh-rot));
+}
